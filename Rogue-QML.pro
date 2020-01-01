@@ -7,6 +7,8 @@ SOURCES += main.cpp \
     dungeon.cpp
 include(qml-box2d/box2d-static.pri)
 
+INCLUDEPATH += qml-box2d
+
 HEADERS += \
     enginePlugin.h \
     dungeon.h \
